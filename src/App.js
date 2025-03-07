@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
 import Card from './components/Card';
+import ClassEvent from './components/ClassEvent';
 import Counter from './components/Counter';
+import FuncEvent from './components/FuncEvent';
 import Message from './components/Message';
 // import {Welcome as Welcome1,WelcomeFuncComp} from './components/WelcomeFuncComp'
 // import {WelcomeClassComp,WelcomeClassComp1}  from './components/WelcomeClassComp'
@@ -37,12 +39,14 @@ function App() {
                  fugiat ipsa vitae qui perspiciatis laborum soluta harum.</p>
       </Card> */}
 
-      <Message/>  
+      {/* <Message/>  
       <Counter/>
       <div className="container my-3">
       <TextForm title="Lower to Upper Case Convertor"/>
-      </div>
+      </div> */}
       
+      <FuncEvent/>
+      <ClassEvent/>
     </div>
   );
 }
