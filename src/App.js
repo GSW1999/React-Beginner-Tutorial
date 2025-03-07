@@ -9,6 +9,7 @@ import Message from './components/Message';
 // import {WelcomeClassComp,WelcomeClassComp1}  from './components/WelcomeClassComp'
 // import HelloJSX from './components/HelloJSX'
 import Navbar from './components/Navbar';
+import ParentComp from './components/ParentComp';
 import TextForm from './components/TextForm';
 function App() {
   return (
@@ -45,8 +46,9 @@ function App() {
       <TextForm title="Lower to Upper Case Convertor"/>
       </div> */}
       
-      <FuncEvent/>
-      <ClassEvent/>
+      {/* <FuncEvent/>
+      <ClassEvent/> */}
+<ParentComp/>
     </div>
   );
 }
