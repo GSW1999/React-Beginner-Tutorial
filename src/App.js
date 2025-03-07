@@ -11,6 +11,7 @@ import Message from './components/Message';
 import Navbar from './components/Navbar';
 import ParentComp from './components/ParentComp';
 import TextForm from './components/TextForm';
+import UserLogin from './components/UserLogin';
 function App() {
   return (
     <div className="App">
@@ -48,7 +49,8 @@ function App() {
       
       {/* <FuncEvent/>
       <ClassEvent/> */}
-<ParentComp/>
+{/* <ParentComp/> */}
+<UserLogin/>
     </div>
   );
 }
