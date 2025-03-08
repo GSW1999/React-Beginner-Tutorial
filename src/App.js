@@ -3,6 +3,7 @@ import './App.css';
 import Card from './components/Card';
 import ClassEvent from './components/ClassEvent';
 import Counter from './components/Counter';
+import EmployeeList from './components/EmployeeList';
 import FuncEvent from './components/FuncEvent';
 import Message from './components/Message';
 // import {Welcome as Welcome1,WelcomeFuncComp} from './components/WelcomeFuncComp'
@@ -50,7 +51,8 @@ function App() {
       {/* <FuncEvent/>
       <ClassEvent/> */}
 {/* <ParentComp/> */}
-<UserLogin/>
+{/* <UserLogin/> */}
+<EmployeeList/>
     </div>
   );
 }
