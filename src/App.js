@@ -13,6 +13,7 @@ import Navbar from './components/Navbar';
 import ParentComp from './components/ParentComp';
 import TextForm from './components/TextForm';
 import UserLogin from './components/UserLogin';
+import Form from './components/Form';
 function App() {
   return (
     <div className="App">
@@ -52,7 +53,11 @@ function App() {
       <ClassEvent/> */}
 {/* <ParentComp/> */}
 {/* <UserLogin/> */}
-<EmployeeList/>
+{/* <EmployeeList/> */}
+
+<div className='container'>
+  <Form/>
+</div>
     </div>
   );
 }
