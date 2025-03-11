@@ -14,6 +14,8 @@ import ParentComp from './components/ParentComp';
 import TextForm from './components/TextForm';
 import UserLogin from './components/UserLogin';
 import Form from './components/Form';
+import LifeCycleA from './components/LifeCycleA';
+import ScrollTracker from './components/ScrollTracker';
 function App() {
   return (
     <div className="App">
@@ -55,9 +57,11 @@ function App() {
 {/* <UserLogin/> */}
 {/* <EmployeeList/> */}
 
-<div className='container'>
+{/* <div className='container'>
   <Form/>
-</div>
+</div> */}
+<LifeCycleA/>
+<ScrollTracker/>
     </div>
   );
 }
