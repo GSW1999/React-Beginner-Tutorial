@@ -16,6 +16,7 @@ import UserLogin from './components/UserLogin';
 import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
 import ScrollTracker from './components/ScrollTracker';
+import ParentComponent from './components/ParentComponent';
 function App() {
   return (
     <div className="App">
@@ -60,8 +61,10 @@ function App() {
 {/* <div className='container'>
   <Form/>
 </div> */}
-<LifeCycleA/>
-<ScrollTracker/>
+{/* <LifeCycleA/> */}
+{/* <ScrollTracker/> */}
+
+<ParentComponent/>
     </div>
   );
 }
