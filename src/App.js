@@ -20,6 +20,7 @@ import ParentComponent from './components/ParentComponent';
 import RefsDemoComp from './components/Refs/RefsDemoComp';
 import ParentRef from './components/Refs/ParentRef';
 import ParentOfPortal from './components/ParentOfPortal';
+import ParentHeroComp from './components/Error Boundry/ParentHeroComp';
 function App() {
   return (
     <div className="App">
@@ -70,7 +71,8 @@ function App() {
 {/* <ParentComponent/> */}
 {/* <RefsDemoComp/> */}
 {/* <ParentRef/> */}
-<ParentOfPortal/>
+{/* <ParentOfPortal/> */}
+<ParentHeroComp/>
     </div>
   );
 }
