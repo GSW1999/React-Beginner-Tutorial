@@ -17,6 +17,8 @@ import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
 import ScrollTracker from './components/ScrollTracker';
 import ParentComponent from './components/ParentComponent';
+import RefsDemoComp from './components/Refs/RefsDemoComp';
+import ParentRef from './components/Refs/ParentRef';
 function App() {
   return (
     <div className="App">
@@ -64,7 +66,9 @@ function App() {
 {/* <LifeCycleA/> */}
 {/* <ScrollTracker/> */}
 
-<ParentComponent/>
+{/* <ParentComponent/> */}
+{/* <RefsDemoComp/> */}
+<ParentRef/>
     </div>
   );
 }

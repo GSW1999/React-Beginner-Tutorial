@@ -16,4 +16,4 @@ const MemoComponent = () => {
     )
 }
 
-export default memo(MemoComponent,()=>false);
+export default memo(MemoComponent);
