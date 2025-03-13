@@ -19,6 +19,7 @@ import ScrollTracker from './components/ScrollTracker';
 import ParentComponent from './components/ParentComponent';
 import RefsDemoComp from './components/Refs/RefsDemoComp';
 import ParentRef from './components/Refs/ParentRef';
+import ParentOfPortal from './components/ParentOfPortal';
 function App() {
   return (
     <div className="App">
@@ -68,7 +69,8 @@ function App() {
 
 {/* <ParentComponent/> */}
 {/* <RefsDemoComp/> */}
-<ParentRef/>
+{/* <ParentRef/> */}
+<ParentOfPortal/>
     </div>
   );
 }
