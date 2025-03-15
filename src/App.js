@@ -21,6 +21,9 @@ import RefsDemoComp from './components/Refs/RefsDemoComp';
 import ParentRef from './components/Refs/ParentRef';
 import ParentOfPortal from './components/ParentOfPortal';
 import ParentHeroComp from './components/Error Boundry/ParentHeroComp';
+import ClickCounter from './components/Higher Order Comp/ClickCounter';
+import HoverCounter from './components/Higher Order Comp/HoverCount';
+import ParentRenderProp from './components/Render Props/ParentRenderProp';
 function App() {
   return (
     <div className="App">
@@ -72,7 +75,11 @@ function App() {
 {/* <RefsDemoComp/> */}
 {/* <ParentRef/> */}
 {/* <ParentOfPortal/> */}
-<ParentHeroComp/>
+{/* <ParentHeroComp/> */}
+{/* <ClickCounter name='React' />
+<HoverCounter/> */}
+
+<ParentRenderProp/>
     </div>
   );
 }
