@@ -24,6 +24,8 @@ import ParentHeroComp from './components/Error Boundry/ParentHeroComp';
 import ClickCounter from './components/Higher Order Comp/ClickCounter';
 import HoverCounter from './components/Higher Order Comp/HoverCount';
 import ParentRenderProp from './components/Render Props/ParentRenderProp';
+import ComponentA from './components/Context API/ComponentA';
+import { UserProvider } from './components/Context API/userContext';
 function App() {
   return (
     <div className="App">
@@ -79,7 +81,12 @@ function App() {
 {/* <ClickCounter name='React' />
 <HoverCounter/> */}
 
-<ParentRenderProp/>
+{/* <ParentRenderProp/> */}
+
+<UserProvider value='React Tutorial'>
+<ComponentA />
+</UserProvider>
+
     </div>
   );
 }
