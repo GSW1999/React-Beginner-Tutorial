@@ -26,6 +26,8 @@ import HoverCounter from './components/Higher Order Comp/HoverCount';
 import ParentRenderProp from './components/Render Props/ParentRenderProp';
 import ComponentA from './components/Context API/ComponentA';
 import { UserProvider } from './components/Context API/userContext';
+import Posts from './components/Posts';
+import PostForm from './components/PostForm';
 function App() {
   return (
     <div className="App">
@@ -83,10 +85,12 @@ function App() {
 
 {/* <ParentRenderProp/> */}
 
-<UserProvider value='React Tutorial'>
+{/* <UserProvider value='React Tutorial'>
 <ComponentA />
-</UserProvider>
+</UserProvider> */}
+{/* <Posts/> */}
 
+<PostForm/>
     </div>
   );
 }

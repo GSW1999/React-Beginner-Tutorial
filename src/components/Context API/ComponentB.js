@@ -3,6 +3,8 @@ import ComponentC from './ComponentC'
 import { UserContext } from './userContext'
 
 export class ComponentB extends Component {
+  
+  static contextType=UserContext
   render() {
     return (
       <div>
@@ -13,6 +15,6 @@ export class ComponentB extends Component {
   }
 }
 
-ComponentB.contextType=UserContext
+// ComponentB.contextType=UserContext
 
 export default ComponentB
