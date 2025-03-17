@@ -28,6 +28,7 @@ import ComponentA from './components/Context API/ComponentA';
 import { UserProvider } from './components/Context API/userContext';
 import Posts from './components/Posts';
 import PostForm from './components/PostForm';
+import ReactHooks from './components/React Hooks/ReactHooks';
 function App() {
   return (
     <div className="App">
@@ -90,7 +91,8 @@ function App() {
 </UserProvider> */}
 {/* <Posts/> */}
 
-<PostForm/>
+{/* <PostForm/> */}
+<ReactHooks/>
     </div>
   );
 }
